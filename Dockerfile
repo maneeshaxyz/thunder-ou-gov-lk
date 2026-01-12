@@ -12,4 +12,4 @@ RUN chown -R 10001:10001 /opt/thunder && \
 USER thunder
 
 EXPOSE 8090
-CMD ["/opt/thunder/start.sh"]
+CMD ["/opt/thunder/setup.sh"]
